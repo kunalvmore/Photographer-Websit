@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  font-family: "fantasy",sans-serif;
+}
+
+.loadimg{
+    height: 400px;
+    background-image: url(../img/Group1.png);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:bold;
+    font-family: "big john",sans-serif;
+    width: 100%;
+    }
+.loadimg h4{
+    font-size: 35px;
+    background: #fff;
+    color: #5edbb9;
+    padding: 8px 24px;
+    border-radius: 16px;
+}
+
+.servicesbtnselector{
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+.pricingplan{
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.pricingplan p{
+  color: #5edbb9;
+  text-transform: uppercase;
+  font-weight:bold;
+  margin: 10px;
+}
+.pricingplan h4{
+  font-size: 25px;
+}
+ .btnselector{
+  padding: 10px;
+  margin: 20px 10px;
+  padding: 7px 15px;
+  font-size: 20px;
+  background-color: #5edbb9;
+  border: none;
+  color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.btnselector:hover{
+  background-color: #4c86e5;
+}
+
+.servicescontainer{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  justify-content: center;
+   align-items: center;
+}
+.servicessection{
+  height: 650px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  padding:30px;
+  justify-content: space-around;
+
+}
+.serviceheading h2{
+  margin-top: 50px;
+  padding: 25px;
+  color: #292929;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Roboto', 'fantasy',sans-serif;
+
+}
+.servicecard{
+  background-color: #fff;
+  padding: 10px 50px;
+  margin: 10px;
+  height: 470px;
+  max-width: 300px;
+  min-width: 150px;
+  position: relative;
+  justify-content: center;
+   align-items: center;
+   width: 100%;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
+  transition: all 0.3s ease;
+
+}
+.servicecard:hover{
+  height: 470px;
+  margin-top: 20px;
+
+}
+.servicecard h2{
+  color: #5edbb9;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+
+}
+.servicecard h1{
+  margin-bottom: 10px;
+  color: #292929;
+}
+.servicecard ul li{
+  margin-top: 12px;
+  list-style-type: none;
+  color: #292929;
+}
+.servicecard ul li i{
+  margin-right: 10px;
+  color: #5edbb9;
+}
+#disable{
+  color: #bdbdbd;
+}
+.servicecard:hover ul li i{
+  color: #4c86e5;
+}
+.servicecard:hover h2{
+  color: #4c86e5;
+}
+.servicecard:hover .selectbtn{
+  background-color: #4c86e5;
+
+}
+
+
+.selectbtn{
+  margin-top: 20px;
+  padding: 7px 10px;
+  width: 120px;
+  background-color: #5edbb9;
+  border: none;
+  color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+@media (max-width:820px){
+
+  .servicescontainer{
+    width: 100%;
+  }
+  .servicessection{
+    height: auto;
+    flex-direction: column;
+}
+.servicecard{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+.btnselector{
+  margin: 10px;
+}
+.loadimg h4{
+    font-size: 25px;
+    padding: 8px;
+  }
+.pricingplan h2{
+  font-size: 20px;
+  padding: 8px;
+}
+}
+/* Contact Page  STARTS HEARE */
+
+.contact
+{
+  padding: 50px 15px;
+  margin: auto;
+}
+.contact .heading h1{
+  text-align: center;
+  margin: 10px;
+  color: #404040;
+  font-size: 1.2em;
+  text-transform: uppercase;
+
+
+}
+.heading p{
+  margin: 20px 0px;
+  color: #606060;
+  text-align: center;
+  line-height: 1.6;
+}
+.address{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.part{
+  text-align: center;
+}
+.part i{
+  margin: 10px;
+}
+.part p{
+  margin: 10px;
+}
+
+.input-class{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0px;
+  border: 0;
+  padding: 20px 0px;
+  outline: none;
+  transition: 0.5s;
+}
+input{
+  font-size: 16px;
+  font-weight: inherit;
+  line-height: 20px;
+  color: #606060;
+  border-radius: 5px;
+}
+textarea{
+  font-size: 16px;
+  font-weight: inherit;
+  line-height: 20px;
+  color: #606060;
+  border-radius: 5px;
+
+}
+
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+textarea[id=message]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+}
+input[type=submit] {
+  text-transform: uppercase;
+  background-color: white;
+  color: #5edbb9;
+  border: 4px solid #5edbb9;
+  padding: 14px 30px;
+  margin: 8px 0;
+  cursor: pointer;
+  font-size: 16px;
+  float: right;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+input[type=submit]:hover {
+  background-color: #5edbb9;
+  color: white;
+
+}
+.btn{
+  width: auto;
+  text-align: center;
+}
+@media (min-width:810px){
+
+  .address{
+    flex-direction: row;
+  }
+  .contact
+  {
+    width: 50%;
+  }
+  .contact .heading h1{
+    font-size: 1.8em;
+
+  }
+}
+/* Contact Page  END HEARE */
+/* Footer Page  Starts HEARE */
+.footer-box{
+width: 100%;
+display: flex;
+flex-direction: column;
+padding-top:25px;
+}
+.footer-section{
+height:auto;
+background-color: black;
+padding: 20px 10px;
+line-height: 1.6;
+
+}
+.footer-box .footer-section{
+ text-align: center;
+ color: white;
+}
+.quick-link ul li{
+padding: 0 5px;
+font-size: 15px;
+color: white;
+list-style-type: none;
+style:none;
+padding-bottom: 30px;
+text-transform: uppercase;
+}
+.quick-link ul {
+display:flex;
+justify-content: center;
+}
+.quick-link ul a{
+text-decoration: none;
+color: #fff;
+}
+.quick-link ul a:hover{
+  color: #4c86e5;
+}
+.quick-link ul li:hover{
+  color: #4c86e5;
+}
+
+
+.footer-bottom{
+text-align: center;
+background-color: black;
+color: white;
+line-height: 1.6;
+}
+.footer-bottom a{
+  text-decoration: none;
+  color: #fff
+}
+.footer-bottom a:hover{
+  text-decoration: underline;
+  color: #4c86e5
+}
+
+
+@media (min-width:770px) {
+.footer-box{
+  flex-direction: column;
+}
+}
+
+/* Footer Page  END HEARE */
