@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"> </script>
     <!-- testimonaila CDN Link ENDs HERE  -->
+    <!-- AOS:Animate on scroll library-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
 
 
@@ -109,25 +111,25 @@
 
                       <div class="service-boxs">
 
-                        <div class="box-one">
-                          <i class="far fa-heart" style="font-size:48px;color:yellow"></i>
+                        <div class="box-one" data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="top-center">
+                          <i class="far fa-heart" style="font-size:48px;"></i>
                           <h2>Wedding Photography</h2>
                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
                         </div>
-                        <div class="box-one ">
-                          <i class="far fa-gem" style="font-size:48px;color:yellow"></i>
+                        <div class="box-one" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-center">
+                          <i class="far fa-gem" style="font-size:48px;"></i>
                           <h2>Jewelry Photography</h2>
                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
                         </div>
 
-                        <div class="box-one ">
-                          <i class="fas fa-birthday-cake" style="font-size:48px;color:yellow"></i>
+                        <div class="box-one" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-center">
+                          <i class="fas fa-birthday-cake" style="font-size:48px;"></i>
                           <h2>Birthday Photography</h2>
                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
                         </div>
 
-                        <div class="box-one ">
-                          <i class="fas fa-unlock-alt" style="font-size:48px;color:yellow"></i>
+                        <div class="box-one" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-center">
+                          <i class="fas fa-unlock-alt" style="font-size:48px;"></i>
                           <h2>Fashion Photography</h2>
                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
                         </div>
@@ -450,6 +452,13 @@
           prevScrolllpos = currentScrollpos;
       }
   </script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 
   </body>
 </html>

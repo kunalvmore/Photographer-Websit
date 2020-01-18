@@ -168,11 +168,19 @@ box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
 .box-one i,h2,p{
   margin: 10px 0px;
 }
+.box-one i{
+  color: yellow;
+}
+.box-one:hover i{
+  color: #fff;
+}
 .box-one:hover{
   border-color: #4c86e5;
   background-color: #4c86e5;
   color: white;
 }
+
+
 
 
 /* For bigger screen */
