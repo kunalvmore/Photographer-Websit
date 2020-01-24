@@ -47,22 +47,22 @@ body{
   transition: 0.5s;
 }
 .container .slider .slide.slide1{
-  background: url(../img/landingpic11.png);
+  background: url(../img/landing-pic2.jpg);
   background-size: cover;
   background-position: center;
 }
 .container .slider .slide.slide2{
-  background: url(../img/clark-street@2x.png);
+  background: url(../img/landing-pic3.jpg);
   background-size: cover;
   background-position: center;
 }
 .container .slider .slide.slide3{
-  background: url(../img/dakota-corbin@2x.png);
+  background: url(../img/landing-pic4.jpg);
   background-size: cover;
   background-position: center;
 }
 .container .slider .slide.slide4{
-  background: url(../img/landingpic13.png);
+  background: url(../img/landing-pic.jpg);
   background-size: cover;
   background-position: center;
 }
