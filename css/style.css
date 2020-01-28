@@ -148,6 +148,7 @@ header {
 .Service-heading >h2{
   font-size: 1.2em;
   text-transform: uppercase;
+  color: #404040;
 }
 
 .par-service{
@@ -245,7 +246,7 @@ box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
     margin: auto;
   }
   .container-aboutpage h2{
-    color: #606060;
+    color: #404040;
   text-align: center;
   margin: 40px auto;
   text-transform: uppercase;
@@ -499,7 +500,7 @@ box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
 
   .testimonaila-section   .testimonial-inner-width h1{
     text-align: center;
-    color: #333;
+    color: #404040;
     font-size: 1.2em;
   }
 
