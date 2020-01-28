@@ -12,7 +12,6 @@ body {
   line-height: 1.6;
   height: 100rem;
 }
-
 /* Header & Navbar */
 header {
   background: #fff;
@@ -376,9 +375,9 @@ box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
     display: block;
     width: 100%;
     box-sizing: border-box;
-    margin: 16px 0px;
+    margin-top: 16px ;
     border: 0;
-    padding: 20px 0px;
+    padding-top: 20px 0px;
     outline: none;
     transition: 0.5s;
   }
@@ -419,7 +418,7 @@ box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
   textarea[id=message]{
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 16px 0;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
@@ -455,12 +454,32 @@ box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
     }
     .contact
     {
-      width: 50%;
+      width: 60%;
     }
     .contact .heading h1{
       font-size: 1.8em;
 
     }
+    .input-class{
+      margin: 0px;
+      display: grid;
+      grid-gap: 8px;
+      grid-template-areas: "form1 form2"
+                           "form3 form4"
+    }
+    .form-type1 .form1{
+      grid-area: form1;
+    }
+    .form-type .form2{
+      grid-area: form2;
+    }
+    .form-type1 .form3{
+      grid-area: form3;
+    }
+    .form-type .form4{
+      grid-area: form4;
+    }
+    
   }
   /* Contact Page  END HEARE */
 
@@ -549,6 +568,7 @@ box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
   /* Testimonail Page  END HEARE */
   /* Footer Page  Starts HEARE */
 .footer-box{
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding-top:25px;
